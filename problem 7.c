@@ -8,9 +8,6 @@
 #include <stdlib.h>
 #include <sys/mman.h>
 
-#define BUF_SIZE 100
-#define LINE_SIZE 100
-
 int create_rows_table (off_t* offsets, char* buf, int file_size)
 {
 	int line_number = 1;
